@@ -6,7 +6,7 @@ const port = 8000;
 const password = 'hello';
 
 app.get('/', (req, res) => {
-    res.send('simple page');
+    res.send('simple page :)');
 })
 
 app.get('/encode/:text', (req, res) => {
